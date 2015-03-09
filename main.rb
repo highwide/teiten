@@ -1,3 +1,6 @@
+require 'bundler'
+Bundler.require
+
 client = Twitter::REST::client.new do |config|
   config.consumer_key        = ENV['CONSUMER_KEY']
   config.consumer_secret     = ENV['CONSUMER_SECRET']
