@@ -3,6 +3,7 @@ GEM
   specs:
     addressable (2.3.7)
     buftok (0.2.0)
+    byebug (8.2.1)
     coderay (1.1.0)
     equalizer (0.0.9)
     faraday (0.9.1)
@@ -16,10 +17,13 @@ GEM
     method_source (0.8.2)
     multipart-post (2.0.0)
     naught (1.0.0)
-    pry (0.10.1)
+    pry (0.10.3)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    pry-byebug (3.3.0)
+      byebug (~> 8.0)
+      pry (~> 0.10)
     rmagick (2.13.4)
     simple_oauth (0.3.1)
     slop (3.6.0)
@@ -40,6 +44,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  pry
+  pry-byebug
   rmagick
   twitter
+
+BUNDLED WITH
+   1.10.6
